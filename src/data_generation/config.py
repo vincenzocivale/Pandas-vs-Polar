@@ -1,8 +1,14 @@
-DATASET_SIZES = [
+"""DATASET_SIZES = [
     (10000, 10),        # Piccolo
-    (1000000, 20),      # Medio
-    (10000000, 30),     # Grande
-    (100000000, 50)     # Molto Grande
+    (1000000, 10),      # Medio
+    (10000000, 10),     # Grande
+    (100000000, 10)     # Molto Grande
+]"""
+
+DATASET_SIZES = [
+    (1000000, 10)      
+    
 ]
 
-DEFAULT_DATASET_SIZE = "pandas"
+NUM_SAMPLES = 50
+DEFAULT_LIBRARY = 'polar'
